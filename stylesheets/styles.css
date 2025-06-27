@@ -5,3 +5,14 @@
   margin: 0 auto;
 }
 
+.video-centering{
+  text-align: center;
+  width: 560px;
+  margin: 0 auto;
+  
+}
+
+.video-centering iframe {
+  display: block;
+  margin-bottom: 20px;
+}
