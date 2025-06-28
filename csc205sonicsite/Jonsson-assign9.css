@@ -1,0 +1,146 @@
+* {
+            box-sizing: border-box;
+        }
+
+body{
+    line-height: 1.5em;
+    background-image: url('images/sonicbackground.png');
+    overflow-wrap:break-word;
+    word-wrap: break-word;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color:red;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.main {
+    
+    padding:20px;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    align-items: flex-start;
+    align-content: center;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    font-family: 'Raleway';
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration:none;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav{
+    width:100%;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: darkblue;
+    display:flex;
+    margin-bottom: 30px;
+        }
+
+nav li{
+    margin: 0px 0px 0px 0px;
+    background-color: darkblue;
+    list-style: none;
+    display:inline-block;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    font-size:15pt;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    float:left;
+    display:inline-block;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    color: burlywood;
+    display:inline-block;
+}
+
+header{
+    background: blue;
+    padding-bottom: 1px;
+    padding-top: 20px
+    
+}
+
+#videogame {
+flex:1; 
+background-color: white;
+    border: 2px blue solid; 
+    width: 25%;
+    padding: 20px;
+   
+}
+
+#comicbook {
+  flex:1; 
+    background-color:white;
+    border: 2px blue solid; 
+        width: 25%;
+    padding: 20px;
+}
+
+#tvshow {
+  flex:1; 
+background-color:white;
+    border: 2px blue solid; 
+        width: 25%;
+    padding: 20px;
+   
+}
+
+#movie{
+   flex:1; 
+    background-color:white;
+    border: 2px blue solid; 
+        width: 25%;
+    padding: 20px;
+}
+
+
+
+#cbs > img{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+footer{
+   background-color:white;
+    border: 2px blue solid; 
+    font-family: 'Raleway';
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

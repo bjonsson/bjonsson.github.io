@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="final.css">
+        <meta charset="utf-8">
+        <title>A night on the town with a famous physicist!</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Enjoy a night on the town with a famous physicist!</h1>
+            
+            <h2>Which famous physicist would you like to purchase a night out with?</h2>
+        </header>
+        
+        <div id="flexboxes">
+            
+        <div id="radiobuttons">
+            
+        <label for="kaku">Michio Kaku $1,000</label>
+        <input type="radio" id="kaku" name="physicist" value="kaku" checked>
+        <p>
+        <label for="greene">Brian Greene $2,000</label>
+        <input type="radio" id="greene" name="physicist" value="greene">
+        </p>
+        <p>
+        <label for="tyson">Neil deGrasse Tyson $5,000</label>
+        <input type="radio" id="tyson" name="physicist" value="tyson">
+        </p>
+        <p>
+        <label for="einstein">Albert Einstein $25,000,000</label>
+        <input type="radio" id="einstein" name="physicist" value="einstein">
+        </p>
+        </div>
+        
+        <div id="descriptions">
+
+        <div id="kakuDescription" class="blurb">A professor at City College of New York and CUNY Graduate Center in theoretical physics. Did research in quantum mechanics. Wrote a textbook about quantum field theory, but wrote several more popular speculative books about the possibilities of the future, including one highlighting neurophysics (perhaps due in part to his neuroscientist daughter).
+        </div>
+            
+        <div id="greeneDescription" class="blurb">
+        
+
+        </div>
+            
+        <div id="tysonDescription" class="blurb">
+        
+        </div>
+            
+        <div id="einsteinDescription" class="blurb">
+
+        </div>
+
+        </div>
+        
+        <div id="headshots">
+            
+        <img id="pictures" src="images/kakutwitter.jpg">
+            
+        </div>
+        </div>
+        
+        <div id="calculator">
+            <h2>How many nights out would you like to purchase with the scientist you selected?</h2></div>
+        
+        <label><div id="donation">Number of Nights*</div></label>
+        <br>
+        <input type="text" id="nights">
+        <br>
+        <button id="submit">Confirm Donation</button>
+        <p>
+        *All proceeds go to The Science Foundation.
+        
+        <script src="final.js"></script>
+        
+    </body>
