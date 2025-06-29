@@ -1,0 +1,21 @@
+#myDIV, #myDIV2, #myDIV3point1, #myDIV3point2, #myDIV3point3, #myDIV3point4, #myDIV3point5, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8, #myDIV9, #myDIV10, #myDIV11point1, #myDIV11point2, #myDIV12point1point1, #myDIV12point1point2, #myDIV12point2, #myDIV12point3, #myDIV13, #myDIV14{
+    display: none;
+}
+
+.exercises{
+    
+  border-radius: 25px;
+  background: #999999;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 100px;
+
+}
+
+.exercises h1{
+      text-align: center;
+}
+
+#results1, #results2, #results3, #results4, #results5, #results6, #results7, #results8, #results9, #results10, #results11, #results12, #results13, #results14, #results15, #results16, #results17{
+    color: blanchedalmond;
+}
